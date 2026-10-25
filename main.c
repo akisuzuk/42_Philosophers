@@ -1,11 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: akisuzuk <akisuzuk@student.42tokyo.jp>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/26 00:41:21 by akisuzuk          #+#    #+#             */
+/*   Updated: 2026/10/26 00:42:19 by akisuzuk         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include <stdio.h>
-
 
 int is_valid_number(char *str)
 {
     int i;
-    
+
     i = 0;
     if (str[0] == '\0')
         return (0);
@@ -41,7 +51,7 @@ int main(int argc, char **argv)
 {
     //printf("argc = %d\n", argc);
     //printf("argv[0] = %s\n", argv[0]);
-    
+
     int i;
 
     if  (argc != 5 && argc != 6)
@@ -60,7 +70,7 @@ int main(int argc, char **argv)
         }
         i++;
     }
-    
+
     //printf("Number = %d\n", ft_atoi(argv[1]));
     printf("Arguments OK\n");
     return (0);
