@@ -6,13 +6,13 @@
 /*   By: akisuzuk <akisuzuk@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 00:41:21 by akisuzuk          #+#    #+#             */
-/*   Updated: 2026/10/26 00:42:19 by akisuzuk         ###   ########.fr       */
+/*   Updated: 2026/10/26 11:31:30 by akisuzuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int is_valid_number(char *str)
+intis_valid_number(char *str)
 {
     int i;
 
